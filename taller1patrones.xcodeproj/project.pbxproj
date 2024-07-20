@@ -14,6 +14,9 @@
 		E0ECE6982C4C145B0023C41C /* taller1patronesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6972C4C145B0023C41C /* taller1patronesTests.swift */; };
 		E0ECE6A22C4C145B0023C41C /* taller1patronesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6A12C4C145B0023C41C /* taller1patronesUITests.swift */; };
 		E0ECE6A42C4C145B0023C41C /* taller1patronesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6A32C4C145B0023C41C /* taller1patronesUITestsLaunchTests.swift */; };
+		E0ECE6B12C4C16480023C41C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6B02C4C16480023C41C /* Models.swift */; };
+		E0ECE6B32C4C20B80023C41C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6B22C4C20B80023C41C /* MainView.swift */; };
+		E0ECE6B52C4C20DC0023C41C /* BuscarCitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE6B42C4C20DC0023C41C /* BuscarCitaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		E0ECE69D2C4C145B0023C41C /* taller1patronesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taller1patronesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0ECE6A12C4C145B0023C41C /* taller1patronesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taller1patronesUITests.swift; sourceTree = "<group>"; };
 		E0ECE6A32C4C145B0023C41C /* taller1patronesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taller1patronesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0ECE6B02C4C16480023C41C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E0ECE6B22C4C20B80023C41C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E0ECE6B42C4C20DC0023C41C /* BuscarCitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarCitaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E0ECE6892C4C145B0023C41C /* Assets.xcassets */,
 				E0ECE68E2C4C145B0023C41C /* taller1patrones.entitlements */,
 				E0ECE68B2C4C145B0023C41C /* Preview Content */,
+				E0ECE6B02C4C16480023C41C /* Models.swift */,
+				E0ECE6B22C4C20B80023C41C /* MainView.swift */,
+				E0ECE6B42C4C20DC0023C41C /* BuscarCitaView.swift */,
 			);
 			path = taller1patrones;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ECE6B12C4C16480023C41C /* Models.swift in Sources */,
+				E0ECE6B32C4C20B80023C41C /* MainView.swift in Sources */,
+				E0ECE6B52C4C20DC0023C41C /* BuscarCitaView.swift in Sources */,
 				E0ECE6882C4C14590023C41C /* ContentView.swift in Sources */,
 				E0ECE6862C4C14590023C41C /* taller1patronesApp.swift in Sources */,
 			);

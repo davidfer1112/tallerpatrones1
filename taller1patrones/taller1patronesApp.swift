@@ -11,7 +11,8 @@ import SwiftUI
 struct taller1patronesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
+
